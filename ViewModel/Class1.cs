@@ -8,6 +8,6 @@ namespace ViewModel
 {
     public class Class1
     {
-        test
+        hilfe
     }
 }
