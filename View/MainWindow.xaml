@@ -5,8 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="500">
     <Grid>
-        
+        <Grid.Background>
+            <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\holz-altern.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="97,289,0,0" VerticalAlignment="Top" Width="75" >
+            <Button.Background>
+                <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
+            </Button.Background>
+        </Button>
+        <Button x:Name="buttonDice" Content="Dice" HorizontalAlignment="Left" Margin="171,218,0,0" VerticalAlignment="Top" Width="133" Height="53">
+            <Button.Background>
+                <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
+            </Button.Background>
+        </Button>
+        <Button x:Name="buttonRules" Content="Rules" HorizontalAlignment="Left" Margin="202,289,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Background>
+                <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
+            </Button.Background>
+        </Button>
+        <Button x:Name="buttonPoints" Content="Points" HorizontalAlignment="Left" Margin="305,289,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Background>
+                <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
+            </Button.Background>
+        </Button>
+
+        <Image x:Name="savedDice1" HorizontalAlignment="Left" Margin="410,16,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice2" HorizontalAlignment="Left" Margin="445,16,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel2.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice3" HorizontalAlignment="Left" Margin="410,55,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel3.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice4" HorizontalAlignment="Left" Margin="445,55,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel4.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice5" HorizontalAlignment="Left" Margin="410,97,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel5.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice6" HorizontalAlignment="Left" Margin="445,97,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel6.png" Height="30" Width="30"/>
+
+        <Label x:Name="valueCurrent" Content="Value" HorizontalAlignment="Left" Margin="410,140,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
+
+
+
+
     </Grid>
 </Window>
