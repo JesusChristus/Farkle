@@ -11,22 +11,27 @@
             <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\holz-altern.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
 
-        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="97,289,0,0" VerticalAlignment="Top" Width="75" >
+        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="81,289,0,0" VerticalAlignment="Top" Width="75" >
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
-        <Button x:Name="buttonDice" Content="Dice" HorizontalAlignment="Left" Margin="171,218,0,0" VerticalAlignment="Top" Width="133" Height="53">
+        <Button x:Name="buttonDice" Content="Dice" HorizontalAlignment="Left" Margin="81,211,0,0" VerticalAlignment="Top" Width="133" Height="53">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
-        <Button x:Name="buttonRules" Content="Rules" HorizontalAlignment="Left" Margin="202,289,0,0" VerticalAlignment="Top" Width="75">
+        <Button x:Name="buttonRules" Content="Rules" HorizontalAlignment="Left" Margin="186,289,0,0" VerticalAlignment="Top" Width="90">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
         <Button x:Name="buttonPoints" Content="Points" HorizontalAlignment="Left" Margin="305,289,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Background>
+                <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
+            </Button.Background>
+        </Button>
+        <Button x:Name="buttonPass" Content="End turn" HorizontalAlignment="Left" Margin="247,211,0,0" VerticalAlignment="Top" Width="133" Height="53">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
@@ -39,10 +44,16 @@
         <Image x:Name="savedDice5" HorizontalAlignment="Left" Margin="410,97,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel5.png" Height="30" Width="30"/>
         <Image x:Name="savedDice6" HorizontalAlignment="Left" Margin="445,97,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel6.png" Height="30" Width="30"/>
 
+        <Image x:Name="currentDice1" HorizontalAlignment="Left" Margin="81,15,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice2" HorizontalAlignment="Left" Margin="186,15,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice3" HorizontalAlignment="Left" Margin="290,15,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice4" HorizontalAlignment="Left" Margin="81,110,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice5" HorizontalAlignment="Left" Margin="186,110,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice6" HorizontalAlignment="Left" Margin="290,110,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+
         <Label x:Name="valueCurrent" Content="Value" HorizontalAlignment="Left" Margin="410,140,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
-
-
-
+        <Label x:Name="scoreOverall" Content="/" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="13" HorizontalAlignment="Left" Margin="410,255,0,0" VerticalAlignment="Top" Width="65" Height="30" Background="White"/>
+        <Label x:Name="labelPlayer" Content="Player" HorizontalAlignment="Left" Margin="410,211,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
 
     </Grid>
 </Window>
