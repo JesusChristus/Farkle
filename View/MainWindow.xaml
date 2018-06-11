@@ -5,55 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="500">
+        Title="MainWindow" Height="350" Width="450">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\holz-altern.jpg" Stretch="UniformToFill"/>
         </Grid.Background>
 
-        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="81,289,0,0" VerticalAlignment="Top" Width="75" >
+        <Button x:Name="buttonSave" Content="Save" HorizontalAlignment="Left" Margin="16,289,0,0" VerticalAlignment="Top" Width="75" >
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
-        <Button x:Name="buttonDice" Content="Dice" HorizontalAlignment="Left" Margin="81,211,0,0" VerticalAlignment="Top" Width="133" Height="53">
+        <Button x:Name="buttonDice" Content="Dice" HorizontalAlignment="Left" Margin="26,219,0,0" VerticalAlignment="Top" Width="133" Height="53">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
-        <Button x:Name="buttonRules" Content="Rules" HorizontalAlignment="Left" Margin="186,289,0,0" VerticalAlignment="Top" Width="90">
+        <Button x:Name="buttonRules" Content="Rules" HorizontalAlignment="Left" Margin="341,289,0,0" VerticalAlignment="Top" Width="90">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
-        <Button x:Name="buttonPoints" Content="Points" HorizontalAlignment="Left" Margin="305,289,0,0" VerticalAlignment="Top" Width="75">
+        <Button x:Name="buttonPoints" Content="Points" HorizontalAlignment="Left" Margin="227,289,0,0" VerticalAlignment="Top" Width="75">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
-        <Button x:Name="buttonPass" Content="End turn" HorizontalAlignment="Left" Margin="247,211,0,0" VerticalAlignment="Top" Width="133" Height="53">
+        <Button x:Name="buttonPass" Content="End turn" HorizontalAlignment="Left" Margin="192,219,0,0" VerticalAlignment="Top" Width="133" Height="53">
+            <Button.Background>
+                <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
+            </Button.Background>
+        </Button>
+        <Button x:Name="buttonLoad" Content="Load" HorizontalAlignment="Left" Margin="119,289,0,0" VerticalAlignment="Top" Width="75">
             <Button.Background>
                 <ImageBrush ImageSource="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\stone.jpeg" />
             </Button.Background>
         </Button>
 
-        <Image x:Name="savedDice1" HorizontalAlignment="Left" Margin="410,16,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png" Height="30" Width="30"/>
-        <Image x:Name="savedDice2" HorizontalAlignment="Left" Margin="445,16,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel2.png" Height="30" Width="30"/>
-        <Image x:Name="savedDice3" HorizontalAlignment="Left" Margin="410,55,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel3.png" Height="30" Width="30"/>
-        <Image x:Name="savedDice4" HorizontalAlignment="Left" Margin="445,55,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel4.png" Height="30" Width="30"/>
-        <Image x:Name="savedDice5" HorizontalAlignment="Left" Margin="410,97,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel5.png" Height="30" Width="30"/>
-        <Image x:Name="savedDice6" HorizontalAlignment="Left" Margin="445,97,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel6.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice1" HorizontalAlignment="Left" Margin="355,24,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice2" HorizontalAlignment="Left" Margin="390,24,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel2.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice3" HorizontalAlignment="Left" Margin="355,63,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel3.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice4" HorizontalAlignment="Left" Margin="390,63,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel4.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice5" HorizontalAlignment="Left" Margin="355,105,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel5.png" Height="30" Width="30"/>
+        <Image x:Name="savedDice6" HorizontalAlignment="Left" Margin="390,105,0,0" VerticalAlignment="Top" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel6.png" Height="30" Width="30"/>
 
-        <Image x:Name="currentDice1" HorizontalAlignment="Left" Margin="81,15,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
-        <Image x:Name="currentDice2" HorizontalAlignment="Left" Margin="186,15,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
-        <Image x:Name="currentDice3" HorizontalAlignment="Left" Margin="290,15,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
-        <Image x:Name="currentDice4" HorizontalAlignment="Left" Margin="81,110,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
-        <Image x:Name="currentDice5" HorizontalAlignment="Left" Margin="186,110,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
-        <Image x:Name="currentDice6" HorizontalAlignment="Left" Margin="290,110,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice1" HorizontalAlignment="Left" Margin="26,23,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice2" HorizontalAlignment="Left" Margin="131,23,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice3" HorizontalAlignment="Left" Margin="235,23,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice4" HorizontalAlignment="Left" Margin="26,118,0,0" VerticalAlignment="Top"  Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice5" HorizontalAlignment="Left" Margin="131,118,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
+        <Image x:Name="currentDice6" HorizontalAlignment="Left" Margin="235,118,0,0" VerticalAlignment="Top" Width="90" Height="90" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\wuerfel1.png"/>
 
-        <Label x:Name="valueCurrent" Content="Value" HorizontalAlignment="Left" Margin="410,140,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
-        <Label x:Name="scoreOverall" Content="/" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="13" HorizontalAlignment="Left" Margin="410,255,0,0" VerticalAlignment="Top" Width="65" Height="30" Background="White"/>
-        <Label x:Name="labelPlayer" Content="Player" HorizontalAlignment="Left" Margin="410,211,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
+        <Label x:Name="valueCurrent" Content="Value" HorizontalAlignment="Left" Margin="355,148,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
+        <Label x:Name="scoreOverall" Content="/" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="Bold" FontSize="13" HorizontalAlignment="Left" Margin="355,230,0,0" VerticalAlignment="Top" Width="65" Height="30" Background="White"/>
+        <Label x:Name="labelPlayer" Content="Player" HorizontalAlignment="Left" Margin="355,190,0,0" VerticalAlignment="Top" Width="65" Background="White"/>
+
+        <Image x:Name="image" HorizontalAlignment="Left" Height="30" Margin="410,16,0,0" VerticalAlignment="Top" Width="30" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\lock.png"  Visibility="Hidden"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="30" Margin="445,16,0,0" VerticalAlignment="Top" Width="30" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\lock.png" Visibility="Hidden" />
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="30" Margin="410,55,0,0" VerticalAlignment="Top" Width="30" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\lock.png" Visibility="Hidden"/>
+        <Image x:Name="image3" HorizontalAlignment="Left" Height="30" Margin="445,55,0,0" VerticalAlignment="Top" Width="30" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\lock.png" Visibility="Hidden"/>
+        <Image x:Name="image4" HorizontalAlignment="Left" Height="30" Margin="410,97,0,0" VerticalAlignment="Top" Width="30" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\lock.png" Visibility="Hidden"/>
+        <Image x:Name="image5" HorizontalAlignment="Left" Height="30" Margin="445,97,0,0" VerticalAlignment="Top" Width="30" Source="H:\Eigene Dateien\FI2016\Fi 11\C#\Farkle\lock.png" Visibility="Hidden"/>
 
     </Grid>
 </Window>
