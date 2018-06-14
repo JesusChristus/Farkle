@@ -10,28 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace View
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Rules.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Rules : Window
     {
-        public MainWindow()
+        public Rules()
         {
             InitializeComponent();
         }
 
-        private void buttonRules_Click(object sender, RoutedEventArgs e)
-        {
-            Rules rules = new View.Rules();
-            rules.Show();
-        }
-
-        private void buttonPoints_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
             Points points = new Points();
             points.Show();
