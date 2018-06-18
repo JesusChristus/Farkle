@@ -6,5 +6,9 @@
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
         Title="Rules" Height="411.428" Width="308.571">
-    <Button x:Name="buttonPoints" Content="Points" HorizontalAlignment="Left" Margin="97,343,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="309" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"><Run Text="- Ziel des Spiels ist es, die vorher festgelegte Punktzahl zu erreichen."/><LineBreak/><Run Text="- Der Zug eines Spielers endet, wenn "/><LineBreak/><Run Text="&#x9;- er seinen Zug mit dem entsprechenden &#x9;  Button beendet"/><LineBreak/><Run Text="&#x9;- seine Würfel keine punktgebende &#x9;&#x9;  Kombination ergeben"/><LineBreak/><Run Text="- Der Spieler würfelt anfangs mit 6 Würfeln."/><LineBreak/><Run Text="- Durch Klicken auf den entsprechenden Würfel kann    dieser zur Seite gelegt werden bzw. zurück auf das Feld gebracht werden"/><LineBreak/><Run Text="- Die zurückgelegten Würfel ergeben je nach Kombination einen Punktewert"/><LineBreak/><Run Text="- Die übrigen Würfel werden erneut gewürfelt"/><LineBreak/><Run Text="- Bei erneutem Wurf werden bereits zurückgelegte Würfel gesperrt und können nicht wieder ins Feld gelegt werden"/><LineBreak/><Run Text="- Mit beenden des Zuges werden die aktuellen Punkte zum Gesamtscore des Spielers hinzugefügt "/></TextBlock>
+        <Button x:Name="buttonPoints" Content="Points" HorizontalAlignment="Left" Margin="101,350,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.494,-0.913" Click="button_Click" />
+
+    </Grid>
 </Window>
